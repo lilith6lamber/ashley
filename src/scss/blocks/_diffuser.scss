@@ -1,0 +1,46 @@
+.diffuser {
+    background: #A26779;
+    padding-bottom: 40px;
+    color: #b2b2b2;
+
+    &_column {
+        width: 320px;
+        margin-right: 15px;
+    }
+
+    &_header {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        padding-top: 40px;
+        text-transform: uppercase;
+    }
+
+    &_text {
+        max-width: 272px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+
+    &_media {
+        text-align: right;
+        &-img {
+            height: 688px;
+            margin-bottom: 60px;
+        }
+    }
+
+    &_label {
+        font-size: 25px;
+        line-height: 32px;
+        padding-right: 40px;
+        letter-spacing: 0.5px;
+    }
+
+    &_link {
+        &:after {
+            background: #B2B2B2;
+        }
+    }
+}

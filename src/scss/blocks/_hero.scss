@@ -1,0 +1,61 @@
+.hero {
+    background: #E7F066;
+    color: #262626;
+    padding-bottom: 40px;
+    padding-right: 40px;
+
+    &_media {
+        flex-grow: 1;
+    }
+
+    &_text {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+
+    &_link {
+        &:after {
+            background: #262626;
+        }
+    }
+
+    &_label {
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+
+    &_column {
+        max-width: 280px;
+        margin-left: 40px;
+        padding-top: 120px;
+        position: relative;
+    }
+
+    &_card {
+        color: #F1F1EE;
+        background: #1B1B1B;
+        position: absolute;
+        padding: 50px;
+        width: 376px;
+        left: -90px;
+        bottom: 0;
+
+        &-text {
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        &-link {
+            &:after {
+                background: #F1F1EE;
+            }
+        }
+    }
+}

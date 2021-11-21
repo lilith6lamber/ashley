@@ -1,0 +1,23 @@
+.split {
+    &_block {
+        width: 50%;
+        padding: 0 40px 40px;
+        height: 800px;
+        color: #262626;
+
+        &--left {
+            background: url("../img/alcohol.jpg") no-repeat center / cover;
+        }
+
+        &--right {
+            background: url("../img/wash.jpg") no-repeat center / cover;
+        }
+
+        &-link {
+            max-width: fit-content;
+            &:after {
+                background: #262626;
+            }
+        }
+    }
+}

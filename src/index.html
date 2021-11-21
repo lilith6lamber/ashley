@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ashley&Co</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header class="header d-flex justify-content-between align-items-center">
+        <span class="header_logo">
+            @@include('img/logo.svg')
+        </span>
+    <a class="header_cart" href="#">Cart (0)</a>
+    <button class="header_hamburger d-flex flex-column justify-content-between" type="button">
+        <span class="header_hamburger-line"></span>
+        <span class="header_hamburger-line"></span>
+    </button>
+</header>
+<main>
+    <section class="section hero d-flex justify-content-between">
+        <div class="hero_media d-flex flex-column">
+            <picture>
+                <source srcset="img/firstscreen.webp" type="img/webp">
+                <img class="hero_media-img" src="img/firstscreen.jpg" alt="media">
+            </picture>
+            <span class="hero_label">Take your home scent to another realm</span>
+        </div>
+        <div class="hero_column">
+            <p class="hero_text">
+                Let Power House Tui & Kahili uplift every space and surface that surrounds you, with each mist-filled pump.
+            </p>
+            <a class="hero_link link--underline" href="#">Shop new products</a>
+            <div class="hero_card">
+                <p class="hero_card-text">
+                    This website uses cookies to give you the best shopping experience. By continuing to browse the website
+                    we assume that you agree to the use of such cookies. Learn more about cookies and how we use them.
+                </p>
+                <a class="hero_card-link link--underline" href="#">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="section candles">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="candles_column d-flex flex-column justify-content-between">
+                <h2 class="candles_header">Hand poured candles</h2>
+                <div class="candles_wrapper">
+                    <p class="candles_text">
+                        The flicker of the wick and the wafting of scent…Waxed Perfume is the simplest daily
+                        self-indulgence.
+                    </p>
+                    <a class="candles_link link--underline" href="#">browse our full collection</a>
+                </div>
+            </div>
+            <div class="candles_media d-flex flex-column justify-content-between">
+                <picture>
+                    <source srcset="img/candles.webp" type="image/webp">
+                    <img class="candles_media-img" src="img/candles.jpg" alt="media">
+                </picture>
+                <span class="candles_label">Share the light, everyday</span>
+            </div>
+        </div>
+    </section>
+    <section class="section split d-flex">
+        <div class="split_block split_block--left d-flex flex-column justify-content-end">
+            <a class="split_block-link link--underline" href="#">Dialed to 70% alcohol</a>
+        </div>
+        <div class="split_block split_block--right d-flex flex-column justify-content-end">
+            <a class="split_block-link link--underline" href="#">Refill with topup</a>
+        </div>
+    </section>
+    <section class="section about">
+        <div class="container-fluid d-flex align-items-center">
+            <div class="about_media">
+                <picture>
+                    <source srcset="img/about.webp" type="image/webp">
+                    <img src="img/about.jpg" alt="media">
+                </picture>
+            </div>
+            <div class="about_column d-flex flex-column">
+                <h2 class="about_header">About us</h2>
+                <p class="about_subheader">A modern day scent company</p>
+                <p class="about_subtext">
+                    Be it fresh and plush, or musky or verdant, scent is at the centre of everything we do.
+                </p>
+                <p class="about_text">
+                    Home Perfume does the hard work for you, offering a subtle yet consistent scent in your home,
+                    eliminating the need to have to scent ‘by hand’.
+                </p>
+                <a class="about_link link--underline" href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="section diffuser">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="diffuser_column d-flex flex-column justify-content-between">
+                <h2 class="diffuser_header">Modern reed diffuser</h2>
+                <div class="diffuser_wrapper">
+                    <p class="diffuser_text">
+                        Home Perfume does the hard work for you, offering a subtle yet consistent scent in your home,
+                        eliminating the need to have to scent ‘by hand’.
+                    </p>
+                    <a class="diffuser_link link--underline" href="#">View more</a>
+                </div>
+            </div>
+            <div class="diffuser_media d-flex flex-column justify-content-between">
+                <picture>
+                    <source srcset="img/home.webp" type="image/webp">
+                    <img class="diffuser_media-img" src="img/home.jpg" alt="media">
+                </picture>
+                <span class="diffuser_label">Home Perfume</span>
+            </div>
+        </div>
+    </section>
+    <section class="section home">
+        <div class="container-fluid">
+            <div class="home_content d-flex flex-column">
+                <h2 class="home_content-header">Room mist</h2>
+                <p class="home_content-subheader">Hip-hop, house swap</p>
+                <p class="home_content-text">
+                    Freshen tired surrounds with a boost of fresh scent with Power House Nine to Five. Blond Tobacco,
+                    cinders of burnt Birch laced with Geranium, Violet Leaves and the humble Tonka Bean.
+                </p>
+                <a class="home_content-link link--underline" href="#">Shop nine to five</a>
+            </div>
+        </div>
+    </section>
+    <section class="section handwash">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="handwash_column d-flex flex-column justify-content-between">
+                <h2 class="handwash_header">Hand Wash</h2>
+                <div class="handwash_wrapper">
+                    <p class="handwash_text">
+                        Botanical Hand Wash for use anytime/everyday. Bolstered with Aloe, Horopito and Grapefruit Seed!
+                    </p>
+                    <a class="handwash_link link--underline" href="#">Shop our scents</a>
+                </div>
+            </div>
+            <div class="handwash_media d-flex flex-column justify-content-between">
+                <picture>
+                    <source srcset="img/handwash.webp" type="image/webp">
+                    <img class="handwash_media-img" src="img/handwash.jpg" alt="media">
+                </picture>
+                <span class="handwash_label">Your habitual helper</span>
+            </div>
+        </div>
+    </section>
+    <section class="section tool">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="tool_column d-flex flex-column justify-content-between">
+                <h2 class="tool_header">Industry</h2>
+                <div class="tool_wrapper">
+                    <p class="tool_text">
+                        For the most particular of places, stamp out single-use with Hold Me by Ashley & Co ®
+                    </p>
+                    <a class="tool_link link--underline" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="tool_media d-flex flex-column justify-content-between">
+                <picture>
+                    <source srcset="img/tool.webp" type="image/webp">
+                    <img class="tool_media-img" src="img/tool.jpg" alt="media">
+                </picture>
+                <span class="tool_label">Hold Me</span>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container-fluid">
+        <p class="footer_text">Sign up to our newsletter and enrich your lives for good.</p>
+        <form class="footer_form d-flex align-items-end" action="#" method="post">
+            <div class="wrapper d-flex flex-column">
+                <input class="footer_form-field" type="text" id="newsletterName">
+                <label class="footer_form-label" for="newsletterName">Name</label>
+            </div>
+            <div class="wrapper d-flex flex-column">
+                <input class="footer_form-field" data-type="email" type="text" id="newsletterEmail">
+                <label class="footer_form-label" for="newsletterEmail">Email</label>
+            </div>
+            <button class="footer_form-btn" type="submit">Submit</button>
+        </form>
+    </div>
+</footer>
+<script src="js/bundle.min.js"></script>
+</body>
+</html>

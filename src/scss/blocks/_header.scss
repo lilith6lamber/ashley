@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 40px 0;
+    &_logo {
+        flex-grow: 1;
+    }
+    &_hamburger {
+        width: 20px;
+        height: 10px;
+        margin-left: 55px;
+        &-line {
+            background: #262626;
+            width: 100%;
+            height: 2px;
+        }
+    }
+}

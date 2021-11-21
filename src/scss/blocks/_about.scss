@@ -1,0 +1,50 @@
+.about {
+    background: #EBEBEB;
+    padding: 115px 0;
+    color: #262626;
+
+    &_media {
+        width: 800px;
+        margin-right: 30px;
+    }
+
+    &_column {
+        max-width: 310px;
+    }
+
+    &_header {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    &_subheader {
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        margin-bottom: 40px;
+        max-width: 240px;
+    }
+
+    &_subtext, &_text {
+        line-height: 19px;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    &_subtext {
+        font-size: 14px;
+    }
+
+    &_text {
+        font-size: 16px;
+    }
+
+    &_link {
+        max-width: fit-content;
+        &:after {
+            background: #262626;
+        }
+    }
+}
